@@ -61,7 +61,8 @@ extruded=extrude_along_path(shape_pts=profile,path_pts=path,scales=scaling,rotat
 
 # TOUCH-UPS
 extruded+=translate(path[-1])(sphere((args.spiral_diameter)/2*scaling[-1])) # a sphere gives us a rounded tip for the horn
-extruded-=translate([-args.height/2,-args.height/2,-args.height])(cube([args.height,args.height,args.height]))	# flatten the bottom
+crop_size = max(args.height, args.cone_diameter)
+extruded-=translate([-crop_size,-crop_size,-2*crop_size])(cube([2*crop_size, 2*crop_size, 2*crop_size]))# flatten the bottom
 
 openscadCode="$fn=100;"
 openscadCode=openscadCode+scad_render(extruded)
