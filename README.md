@@ -31,14 +31,15 @@ optional arguments:
 ```
 
 Here are some examples of different parameters:
-`make_horn.py`
+
+```make_horn.py```
 ![Default horn settings](examples/horn3.png)
 
-`make_horn.py --height 50`
+```make_horn.py --height 50```
 ![Horn with height 50](examples/horn_height_50.png)
 
-`make_horn.py --height 150`
+```make_horn.py --height 150```
 ![Horn with height 150](examples/horn_height_150.png)
 
-`make_horn.py --spiral-diameter 15`
+```make_horn.py --spiral-diameter 15```
 ![Horn with 15mm diameter spiral](examples/horn_15_spiral_dia.png)
