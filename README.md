@@ -30,28 +30,5 @@ optional arguments:
   --output OUTPUT
 ```
 
-Here are some examples of different parameters:
+[Check out some examples!](examples/)
 
-```make_horn.py```
-![Default horn settings](examples/horn3.png)
-
-```make_horn.py --height 50```
-![Horn with height 50](examples/horn_height_50.png)
-
-```make_horn.py --height 150```
-![Horn with height 150](examples/horn_height_150.png)
-
-```make_horn.py --spiral-diameter 5```
-![Horn with 5mm diameter spiral](examples/horn_05_spiral_dia.png)
-
-```make_horn.py --spiral-diameter 15```
-![Horn with 15mm diameter spiral](examples/horn_15_spiral_dia.png)
-
-```make_horn.py --twists 5```
-![Horn with 5 twists](examples/horn_5twists.png)
-
-```make_horn.py --twists 7```
-![Horn with 7 twists](examples/horn_7twists.png)
-
-```make_horn.py --spiral_diameter 5 --cone-diameter 15 --height 150```
-![Horn of a gazelle](examples/horn_gazelle.png)
