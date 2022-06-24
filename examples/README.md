@@ -17,34 +17,34 @@
 ##  Height
 ### 100mm
 ```make_horn.py```
-![Default horn height](examples/horn3.png)
+![Default horn height](horn3.png)
 
 ### 50mm
 ```make_horn.py --height 50```
-![Horn with height 50](examples/horn_height_50.png)
+![Horn with height 50](horn_height_50.png)
 
 ### 150mm
 ```make_horn.py --height 150```
-![Horn with height 150](examples/horn_height_150.png)
+![Horn with height 150](horn_height_150.png)
 
 ## Spiral diameter
 ### 5mm 
 ```make_horn.py --spiral-diameter 5```
-![Horn with 5mm diameter spiral](examples/horn_05_spiral_dia.png)
+![Horn with 5mm diameter spiral](horn_05_spiral_dia.png)
 
 ### 15mm
 ```make_horn.py --spiral-diameter 15```
-![Horn with 15mm diameter spiral](examples/horn_15_spiral_dia.png)
+![Horn with 15mm diameter spiral](horn_15_spiral_dia.png)
 
 ## Twists
 ### 5 twists
 ```make_horn.py --twists 5```
-![Horn with 5 twists](examples/horn_5twists.png)
+![Horn with 5 twists](horn_5twists.png)
 
 ### 7 twiests
 ```make_horn.py --twists 7```
-![Horn with 7 twists](examples/horn_7twists.png)
+![Horn with 7 twists](horn_7twists.png)
 
 ## Making a gazelle horn
 ```make_horn.py --spiral_diameter 5 --cone-diameter 15 --height 150```
-![Horn of a gazelle](examples/horn_gazelle.png)
+![Horn of a gazelle](horn_gazelle.png)
