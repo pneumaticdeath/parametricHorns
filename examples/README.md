@@ -15,7 +15,7 @@
 
 
 ##  Height
-### 100mm
+### 100mm (default)
 ```make_horn.py```
 ![Default horn height](horn3.png)
 
