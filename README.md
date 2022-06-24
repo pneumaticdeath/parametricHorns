@@ -52,3 +52,6 @@ Here are some examples of different parameters:
 
 ```make_horn.py --twists 7```
 ![Horn with 7 twists](examples/horn_7twists.png)
+
+```make_horn.py --spiral_diameter 5 --cone-diameter 15 --height 150```
+![Horn of a gazelle](examples/horn_gazelle.png)
